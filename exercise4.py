@@ -51,7 +51,8 @@ dataloader.PrepareTrainingAndTestTree(TCut(''),
         'nTrain_Regression=4000:SplitMode=Random:NormMode=NumEvents:!V')
   
 batch_size = 100  
-         
+  
+#Create generator function accessing values from x_tree(loaded in the form of numpy array) 
 def generator_function(array, batch_size):
   inputs = []
   targets = []
