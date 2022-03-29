@@ -1,0 +1,375 @@
+[[1.7414564  0.7643774 ]
+ [0.63940436 0.03440052]
+ [3.7784612  3.5101256 ]
+ ...
+ [3.472551   3.3626528 ]
+ [4.5044656  3.6421323 ]
+ [4.23871    4.085738  ]]
+DataSetInfo              : [dataset] : Added class "Regression"
+                         : Add Tree TreeR of type Regression with 10000 events
+                         : Dataset[dataset] : Class index : 0  name : Regression
+                         
+Epoch 1/10
+100/100 [==============================] - 10s 98ms/step - loss: 0.1037
+Epoch 2/10
+100/100 [==============================] - 10s 98ms/step - loss: 0.0915
+Epoch 3/10
+100/100 [==============================] - 10s 98ms/step - loss: 0.0915
+Epoch 4/10
+100/100 [==============================] - 10s 98ms/step - loss: 0.0915
+Epoch 5/10
+100/100 [==============================] - 10s 99ms/step - loss: 0.0915
+Epoch 6/10
+100/100 [==============================] - 4s 40ms/step - loss: 0.0915
+Epoch 7/10
+100/100 [==============================] - 4s 39ms/step - loss: 0.0915
+Epoch 8/10
+100/100 [==============================] - 4s 39ms/step - loss: 0.0915
+Epoch 9/10
+100/100 [==============================] - 4s 39ms/step - loss: 0.0915
+Epoch 10/10
+100/100 [==============================] - 4s 39ms/step - loss: 0.0915
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ dense (Dense)               (None, 64)                192
+
+ dense_1 (Dense)             (None, 1)                 65
+
+=================================================================
+Total params: 257
+Trainable params: 257
+Non-trainable params: 0
+_________________________________________________________________
+Factory                  : Booking method: PyKeras
+                         :
+PyKeras                  : [dataset] : Create Transformation "D" with events from all classes.
+                         :
+                         : Transformation, Variable selection :
+                         : Input : variable 'var1' <---> Output : variable 'var1'
+                         : Input : variable 'var2' <---> Output : variable 'var2'
+PyKeras                  : [dataset] : Create Transformation "G" with events from all classes.
+                         :
+                         : Transformation, Variable selection :
+                         : Input : variable 'var1' <---> Output : variable 'var1'
+                         : Input : variable 'var2' <---> Output : variable 'var2'
+                         : Setting up keras with
+                         :
+                         :
+<WARNING>                :
+                         :
+                         :
+                         :
+Factory                  : Booking method: BDTG
+                         :
+BDTG                     : [dataset] : Create Transformation "D" with events from all classes.
+                         :
+                         : Transformation, Variable selection :
+                         : Input : variable 'var1' <---> Output : variable 'var1'
+                         : Input : variable 'var2' <---> Output : variable 'var2'
+BDTG                     : [dataset] : Create Transformation "G" with events from all classes.
+                         :
+                         : Transformation, Variable selection :
+                         : Input : variable 'var1' <---> Output : variable 'var1'
+                         : Input : variable 'var2' <---> Output : variable 'var2'
+                         : the option NegWeightTreatment=InverseBoostNegWeights does not exist for BoostType=Grad
+                         : --> change to new default NegWeightTreatment=Pray
+                         : Rebuilding Dataset dataset
+                         : Building event vectors for type 2 Regression
+                         : Dataset[dataset] :  create input formulas for tree TreeR
+DataSetFactory           : [dataset] : Number of events in input trees
+                         :
+                         : Number of training and testing events
+                         : ---------------------------------------------------------------------------
+                         : Regression -- training events            : 4000
+                         : Regression -- testing events             : 6000
+                         : Regression -- training and testing events: 10000
+                         :
+DataSetInfo              : Correlation matrix (Regression):
+                         : ------------------------
+                         :             var1    var2
+                         :    var1:  +1.000  -0.007
+                         :    var2:  -0.007  +1.000
+                         : ------------------------
+DataSetFactory           : [dataset] :
+                         :
+Factory                  : Train all methods
+Factory                  : [dataset] : Create Transformation "D" with events from all classes.
+                         :
+                         : Transformation, Variable selection :
+                         : Input : variable 'var1' <---> Output : variable 'var1'
+                         : Input : variable 'var2' <---> Output : variable 'var2'
+Factory                  : [dataset] : Create Transformation "G" with events from all classes.
+                         :
+                         : Transformation, Variable selection :
+                         : Input : variable 'var1' <---> Output : variable 'var1'
+                         : Input : variable 'var2' <---> Output : variable 'var2'
+                         : Preparing the Decorrelation transformation...
+                         : Preparing the Gaussian transformation...
+TFHandler_Factory        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     var1:   0.015779     1.0053   [    -2.9051     5.7307 ]
+                         :     var2:   0.014977     1.0021   [    -2.9059     5.7307 ]
+                         :   fvalue:     135.15     84.532   [     1.9843     394.84 ]
+                         : -----------------------------------------------------------
+Factory                  : Train method: PyKeras for Regression
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         :
+                         : Preparing the Decorrelation transformation...
+                         : Preparing the Gaussian transformation...
+TFHandler_PyKeras        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     var1:   0.015779     1.0053   [    -2.9051     5.7307 ]
+                         :     var2:   0.014977     1.0021   [    -2.9059     5.7307 ]
+                         :   fvalue:     135.15     84.532   [     1.9843     394.84 ]
+                         : -----------------------------------------------------------
+TFHandler_PyKeras        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     var1:   0.015779     1.0053   [    -2.9051     5.7307 ]
+                         :     var2:   0.014977     1.0021   [    -2.9059     5.7307 ]
+                         :   fvalue:     135.15     84.532   [     1.9843     394.84 ]
+                         : -----------------------------------------------------------
+                         :
+                         :
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ dense (Dense)               (None, 64)                192
+
+ dense_1 (Dense)             (None, 1)                 65
+
+=================================================================
+Total params: 257
+Trainable params: 257
+Non-trainable params: 0
+_________________________________________________________________
+                         :
+Epoch 1/20
+ 74/100 [=====================>........] - ETA: 0s - loss: 1484.5360
+Epoch 1: val_loss improved from inf to 24.94264, saving model to dataset/weights/TrainedModel_PyKeras.h5
+100/100 [==============================] - 0s 3ms/step - loss: 1110.6731 - val_loss: 24.9426
+Epoch 2/20
+ 77/100 [======================>.......] - ETA: 0s - loss: 32.8005
+Epoch 2: val_loss improved from 24.94264 to 9.14532, saving model to dataset/weights/TrainedModel_PyKeras.h5
+100/100 [==============================] - 0s 1ms/step - loss: 28.0389 - val_loss: 9.1453
+Epoch 3/20
+ 71/100 [====================>.........] - ETA: 0s - loss: 34.5923
+Epoch 3: val_loss improved from 9.14532 to 6.98147, saving model to dataset/weights/TrainedModel_PyKeras.h5
+100/100 [==============================] - 0s 1ms/step - loss: 25.9855 - val_loss: 6.9815
+Epoch 4/20
+ 72/100 [====================>.........] - ETA: 0s - loss: 5.0574
+Epoch 4: val_loss did not improve from 6.98147
+100/100 [==============================] - 0s 1ms/step - loss: 8.6349 - val_loss: 14.5974
+Epoch 5/20
+ 72/100 [====================>.........] - ETA: 0s - loss: 6.7762
+Epoch 5: val_loss improved from 6.98147 to 3.02877, saving model to dataset/weights/TrainedModel_PyKeras.h5
+100/100 [==============================] - 0s 1ms/step - loss: 6.1477 - val_loss: 3.0288
+Epoch 6/20
+ 65/100 [==================>...........] - ETA: 0s - loss: 6.2749
+Epoch 6: val_loss improved from 3.02877 to 1.43207, saving model to dataset/weights/TrainedModel_PyKeras.h5
+100/100 [==============================] - 0s 1ms/step - loss: 5.5629 - val_loss: 1.4321
+Epoch 7/20
+ 72/100 [====================>.........] - ETA: 0s - loss: 1.6922
+Epoch 7: val_loss did not improve from 1.43207
+100/100 [==============================] - 0s 1000us/step - loss: 3.7962 - val_loss: 6.4769
+Epoch 8/20
+ 74/100 [=====================>........] - ETA: 0s - loss: 3.8140
+Epoch 8: val_loss did not improve from 1.43207
+100/100 [==============================] - 0s 996us/step - loss: 8.5496 - val_loss: 31.6152
+Epoch 9/20
+ 79/100 [======================>.......] - ETA: 0s - loss: 2.9357
+Epoch 9: val_loss improved from 1.43207 to 0.82193, saving model to dataset/weights/TrainedModel_PyKeras.h5
+100/100 [==============================] - 0s 1ms/step - loss: 2.9342 - val_loss: 0.8219
+Epoch 10/20
+ 72/100 [====================>.........] - ETA: 0s - loss: 1.9897
+Epoch 10: val_loss improved from 0.82193 to 0.73808, saving model to dataset/weights/TrainedModel_PyKeras.h5
+100/100 [==============================] - 0s 1ms/step - loss: 2.2527 - val_loss: 0.7381
+Epoch 11/20
+ 72/100 [====================>.........] - ETA: 0s - loss: 1.6698
+Epoch 11: val_loss did not improve from 0.73808
+100/100 [==============================] - 0s 1ms/step - loss: 1.5982 - val_loss: 1.0820
+Epoch 12/20
+ 78/100 [======================>.......] - ETA: 0s - loss: 1.1735
+Epoch 12: val_loss did not improve from 0.73808
+100/100 [==============================] - 0s 963us/step - loss: 1.3304 - val_loss: 1.2227
+Epoch 13/20
+ 69/100 [===================>..........] - ETA: 0s - loss: 0.9944
+Epoch 13: val_loss did not improve from 0.73808
+100/100 [==============================] - 0s 1ms/step - loss: 1.1697 - val_loss: 0.7848
+Epoch 14/20
+ 73/100 [====================>.........] - ETA: 0s - loss: 3.0873
+Epoch 14: val_loss did not improve from 0.73808
+100/100 [==============================] - 0s 990us/step - loss: 2.8026 - val_loss: 9.1360
+Epoch 15/20
+ 69/100 [===================>..........] - ETA: 0s - loss: 1.4494
+Epoch 15: val_loss did not improve from 0.73808
+100/100 [==============================] - 0s 1ms/step - loss: 1.3030 - val_loss: 2.1404
+Epoch 16/20
+ 70/100 [====================>.........] - ETA: 0s - loss: 1.3511
+Epoch 16: val_loss did not improve from 0.73808
+100/100 [==============================] - 0s 1ms/step - loss: 1.9867 - val_loss: 1.4007
+Epoch 17/20
+ 79/100 [======================>.......] - ETA: 0s - loss: 5.1676
+Epoch 17: val_loss improved from 0.73808 to 0.73669, saving model to dataset/weights/TrainedModel_PyKeras.h5
+100/100 [==============================] - 0s 1ms/step - loss: 5.9652 - val_loss: 0.7367
+Epoch 18/20
+ 71/100 [====================>.........] - ETA: 0s - loss: 1.2479
+Epoch 18: val_loss improved from 0.73669 to 0.57007, saving model to dataset/weights/TrainedModel_PyKeras.h5
+100/100 [==============================] - 0s 1ms/step - loss: 1.1371 - val_loss: 0.5701
+Epoch 19/20
+ 71/100 [====================>.........] - ETA: 0s - loss: 1.0919
+Epoch 19: val_loss did not improve from 0.57007
+100/100 [==============================] - 0s 1ms/step - loss: 1.3131 - val_loss: 0.7646
+Epoch 20/20
+ 67/100 [===================>..........] - ETA: 0s - loss: 0.7230
+Epoch 20: val_loss did not improve from 0.57007
+100/100 [==============================] - 0s 1ms/step - loss: 0.6847 - val_loss: 0.9890
+                         :
+                         :
+                         :
+                         :
+                         :
+                         : [>>>>>>>>>>>>>>>] (100%, time left: 0 sec)
+                         : Create variable histograms
+                         : Create regression target histograms
+                         : Create regression average deviation
+                         : Results created
+                         :
+Factory                  : Training finished
+                         :
+Factory                  : Train method: BDTG for Regression
+                         :
+                         : Preparing the Decorrelation transformation...
+                         : Preparing the Gaussian transformation...
+TFHandler_BDTG           : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     var1:   0.015779     1.0053   [    -2.9051     5.7307 ]
+                         :     var2:   0.014977     1.0021   [    -2.9059     5.7307 ]
+                         :   fvalue:     135.15     84.532   [     1.9843     394.84 ]
+                         : -----------------------------------------------------------
+                         : Regression Loss Function: Huber
+                         : Training 1000 Decision Trees ... patience please
+                         : Elapsed time for training with 4000 events: 2.34 sec
+                         : Dataset[dataset] : Create results for training
+                         : Dataset[dataset] : Evaluation of BDTG on training sample
+                         : Dataset[dataset] : Elapsed time for evaluation of 4000 events: 0.44 sec
+                         : Create variable histograms
+                         : Create regression target histograms
+                         : Create regression average deviation
+                         : Results created
+                         : Creating xml weight file: dataset/weights/TMVARegression_BDTG.weights.xml
+                         : TMVA.root:/dataset/Method_BDT/BDTG
+Factory                  : Training finished
+                         :
+TH1.Print Name  = TrainingHistory_PyKeras_'loss', Entries= 0, Total sum= 1221.87
+TH1.Print Name  = TrainingHistory_PyKeras_'val_loss', Entries= 0, Total sum= 118.607
+Factory                  : === Destroy and recreate all methods via weight files for testing ===
+                         :
+                         : Reading weight file: dataset/weights/TMVARegression_PyKeras.weights.xml
+                         : Reading weight file: dataset/weights/TMVARegression_BDTG.weights.xml
+Factory                  : Test all methods
+Factory                  : Test method: PyKeras for Regression performance
+                         :
+                         : Dataset[dataset] : Create results for testing
+                         : Dataset[dataset] : Evaluation of PyKeras on testing sample
+                         : Setting up tf.keras
+                         : Using TensorFlow version 2
+                         : Use Keras version from TensorFlow : tf.keras
+                         :  Loading Keras Model
+                         : Loaded model from file: dataset/weights/TrainedModel_PyKeras.h5
+                         : Dataset[dataset] : Elapsed time for evaluation of 6000 events: 187 sec
+                         : Create variable histograms
+                         : Create regression target histograms
+                         : Create regression average deviation
+                         : Results created
+Factory                  : Test method: BDTG for Regression performance
+                         :
+                         : Dataset[dataset] : Create results for testing
+                         : Dataset[dataset] : Evaluation of BDTG on testing sample
+                         : Dataset[dataset] : Elapsed time for evaluation of 6000 events: 0.49 sec
+                         : Create variable histograms
+                         : Create regression target histograms
+                         : Create regression average deviation
+                         : Results created
+Factory                  : Evaluate all methods
+                         : Evaluate regression method: PyKeras
+                         : TestRegression (testing)
+                         : Calculate regression for all events
+                         : Elapsed time for evaluation of 6000 events: 192 sec
+                         : TestRegression (training)
+                         : Calculate regression for all events
+                         : Elapsed time for evaluation of 4000 events: 128 sec
+TFHandler_PyKeras        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     var1: -0.0043501     1.0177   [    -5.7307     5.7307 ]
+                         :     var2:   0.021717    0.99843   [    -3.2381     5.7307 ]
+                         :   fvalue:     134.14     84.952   [     1.6186     391.85 ]
+                         : -----------------------------------------------------------
+TFHandler_PyKeras        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     var1: -0.0043501     1.0177   [    -5.7307     5.7307 ]
+                         :     var2:   0.021717    0.99843   [    -3.2381     5.7307 ]
+                         :   fvalue:     134.14     84.952   [     1.6186     391.85 ]
+                         : -----------------------------------------------------------
+                         : Evaluate regression method: BDTG
+                         : TestRegression (testing)
+                         : Calculate regression for all events
+                         : Elapsed time for evaluation of 6000 events: 0.422 sec
+                         : TestRegression (training)
+                         : Calculate regression for all events
+                         : Elapsed time for evaluation of 4000 events: 0.312 sec
+TFHandler_BDTG           : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     var1: -0.0043501     1.0177   [    -5.7307     5.7307 ]
+                         :     var2:   0.021717    0.99843   [    -3.2381     5.7307 ]
+                         :   fvalue:     134.14     84.952   [     1.6186     391.85 ]
+                         : -----------------------------------------------------------
+TFHandler_BDTG           : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     var1: -0.0043501     1.0177   [    -5.7307     5.7307 ]
+                         :     var2:   0.021717    0.99843   [    -3.2381     5.7307 ]
+                         :   fvalue:     134.14     84.952   [     1.6186     391.85 ]
+                         : -----------------------------------------------------------
+                         :
+                         : Evaluation results ranked by smallest RMS on test sample:
+                         : ("Bias" quotes the mean deviation of the regression from true target.
+                         :  "MutInf" is the "Mutual Information" between regression and target.
+                         :  Indicated by "_T" are the corresponding "truncated" quantities ob-
+                         :  tained when removing events deviating more than 2sigma from average.)
+                         : --------------------------------------------------------------------------------------------------
+                         : --------------------------------------------------------------------------------------------------
+                         : dataset              PyKeras        :   0.0141   0.0116    0.810    0.635  |  3.295  3.286
+                         : dataset              BDTG           :   0.0732   0.0740     1.71     1.27  |  3.199  3.253
+                         : --------------------------------------------------------------------------------------------------
+                         :
+                         : Evaluation results ranked by smallest RMS on training sample:
+                         : (overtraining check)
+                         : --------------------------------------------------------------------------------------------------
+                         : DataSet Name:         MVA Method:        <Bias>   <Bias_T>    RMS    RMS_T  |  MutInf MutInf_T
+                         : --------------------------------------------------------------------------------------------------
+                         : dataset              PyKeras        :   0.0210   0.0287    0.755    0.622  |  3.332  3.330
+                         : dataset              BDTG           :   0.0409  0.00473     1.39    0.965  |  3.253  3.311
+                         : --------------------------------------------------------------------------------------------------
+                         :
+Dataset:dataset          : Created tree 'TestTree' with 6000 events
+                         :
+Dataset:dataset          : Created tree 'TrainTree' with 4000 events
+                         :
+Factory                  : Thank you for using TMVA!
+                         : For citation information, please visit: http://tmva.sf.net/citeTMVA.html                         

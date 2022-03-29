@@ -1,0 +1,772 @@
+******************************************************************************
+*Tree    :sig_tree  : tree                                                   *
+*Entries :    10000 : Total =         1177229 bytes  File  Size =     785298 *
+*        :          : Tree compression factor =   1.48                       *
+******************************************************************************
+*Br    0 :Type      : Type/F                                                 *
+*Entries :    10000 : Total  Size=      40556 bytes  File Size  =        307 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression= 130.54     *
+*............................................................................*
+*Br    1 :lepton_pT : lepton_pT/F                                            *
+*Entries :    10000 : Total  Size=      40581 bytes  File Size  =      30464 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.32     *
+*............................................................................*
+*Br    2 :lepton_eta : lepton_eta/F                                          *
+*Entries :    10000 : Total  Size=      40586 bytes  File Size  =      28650 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.40     *
+*............................................................................*
+*Br    3 :lepton_phi : lepton_phi/F                                          *
+*Entries :    10000 : Total  Size=      40586 bytes  File Size  =      30508 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.31     *
+*............................................................................*
+*Br    4 :missing_energy_magnitude : missing_energy_magnitude/F              *
+*Entries :    10000 : Total  Size=      40656 bytes  File Size  =      35749 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.12     *
+*............................................................................*
+*Br    5 :missing_energy_phi : missing_energy_phi/F                          *
+*Entries :    10000 : Total  Size=      40626 bytes  File Size  =      36766 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.09     *
+*............................................................................*
+*Br    6 :jet1_pt   : jet1_pt/F                                              *
+*Entries :    10000 : Total  Size=      40571 bytes  File Size  =      32298 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.24     *
+*............................................................................*
+*Br    7 :jet1_eta  : jet1_eta/F                                             *
+*Entries :    10000 : Total  Size=      40576 bytes  File Size  =      28467 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.41     *
+*............................................................................*
+*Br    8 :jet1_phi  : jet1_phi/F                                             *
+*Entries :    10000 : Total  Size=      40576 bytes  File Size  =      30399 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.32     *
+*............................................................................*
+*Br    9 :jet1_b-tag : jet1_b-tag/F                                          *
+*Entries :    10000 : Total  Size=      40586 bytes  File Size  =       5087 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   7.88     *
+*............................................................................*
+*Br   10 :jet2_pt   : jet2_pt/F                                              *
+*Entries :    10000 : Total  Size=      40571 bytes  File Size  =      31561 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.27     *
+*............................................................................*
+*Br   11 :jet2_eta  : jet2_eta/F                                             *
+*Entries :    10000 : Total  Size=      40576 bytes  File Size  =      28616 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.40     *
+*............................................................................*
+*Br   12 :jet2_phi  : jet2_phi/F                                             *
+*Entries :    10000 : Total  Size=      40576 bytes  File Size  =      30547 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.31     *
+*............................................................................*
+*Br   13 :jet2_b-tag : jet2_b-tag/F                                          *
+*Entries :    10000 : Total  Size=      40586 bytes  File Size  =       5031 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   7.97     *
+*............................................................................*
+*Br   14 :jet3_pt   : jet3_pt/F                                              *
+*Entries :    10000 : Total  Size=      40571 bytes  File Size  =      30642 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.31     *
+*............................................................................*
+*Br   15 :jet3_eta  : jet3_eta/F                                             *
+*Entries :    10000 : Total  Size=      40576 bytes  File Size  =      28955 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.38     *
+*............................................................................*
+*Br   16 :jet3_phi  : jet3_phi/F                                             *
+*Entries :    10000 : Total  Size=      40576 bytes  File Size  =      30433 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.32     *
+*............................................................................*
+*Br   17 :jet3_b-tag : jet3_b-tag/F                                          *
+*Entries :    10000 : Total  Size=      40586 bytes  File Size  =       4879 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   8.22     *
+*............................................................................*
+*Br   18 :jet4_pt   : jet4_pt/F                                              *
+*Entries :    10000 : Total  Size=      40571 bytes  File Size  =      29189 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.37     *
+*............................................................................*
+*Br   19 :jet4_eta  : jet4_eta/F                                             *
+*Entries :    10000 : Total  Size=      40576 bytes  File Size  =      29311 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.37     *
+*............................................................................*
+*Br   20 :jet4_phi  : jet4_phi/F                                             *
+*Entries :    10000 : Total  Size=      40576 bytes  File Size  =      30525 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.31     *
+*............................................................................*
+*Br   21 :jet4_b-tag : jet4_b-tag/F                                          *
+*Entries :    10000 : Total  Size=      40586 bytes  File Size  =       4725 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   8.48     *
+*............................................................................*
+*Br   22 :m_jj      : m_jj/F                                                 *
+*Entries :    10000 : Total  Size=      40556 bytes  File Size  =      34991 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.15     *
+*............................................................................*
+*Br   23 :m_jjj     : m_jjj/F                                                *
+*Entries :    10000 : Total  Size=      40561 bytes  File Size  =      34460 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.16     *
+*............................................................................*
+*Br   24 :m_lv      : m_lv/F                                                 *
+*Entries :    10000 : Total  Size=      40556 bytes  File Size  =      32232 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.24     *
+*............................................................................*
+*Br   25 :m_jlv     : m_jlv/F                                                *
+*Entries :    10000 : Total  Size=      40561 bytes  File Size  =      34598 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.16     *
+*............................................................................*
+*Br   26 :m_bb      : m_bb/F                                                 *
+*Entries :    10000 : Total  Size=      40556 bytes  File Size  =      35012 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.14     *
+*............................................................................*
+*Br   27 :m_wbb     : m_wbb/F                                                *
+*Entries :    10000 : Total  Size=      40561 bytes  File Size  =      34493 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.16     *
+*............................................................................*
+*Br   28 :m_wwbb    : m_wwbb/F                                               *
+*Entries :    10000 : Total  Size=      40566 bytes  File Size  =      34410 *
+*Baskets :        1 : Basket Size=    1500672 bytes  Compression=   1.16     *
+*............................................................................*
+DataSetInfo              : [dataset] : Added class "Signal"
+                         : Add Tree sig_tree of type Signal with 10000 events
+DataSetInfo              : [dataset] : Added class "Background"
+                         : Add Tree bkg_tree of type Background with 10000 events
+Sequential(
+  (linear_1): Linear(in_features=7, out_features=64, bias=True)
+  (relu): Tanh()
+  (linear_2): Linear(in_features=64, out_features=2, bias=True)
+)
+Factory                  : Booking method: Likelihood
+                         :
+Factory                  : Booking method: Fisher
+                         :
+Factory                  : Booking method: BDT
+                         :
+                         : Rebuilding Dataset dataset
+                         : Building event vectors for type 2 Signal
+                         : Dataset[dataset] :  create input formulas for tree sig_tree
+                         : Building event vectors for type 2 Background
+                         : Dataset[dataset] :  create input formulas for tree bkg_tree
+DataSetFactory           : [dataset] : Number of events in input trees
+                         :
+                         :
+                         : Number of training and testing events
+                         : ---------------------------------------------------------------------------
+                         : Signal     -- training events            : 7000
+                         : Signal     -- testing events             : 3000
+                         : Signal     -- training and testing events: 10000
+                         : Background -- training events            : 7000
+                         : Background -- testing events             : 3000
+                         : Background -- training and testing events: 10000
+                         :
+DataSetInfo              : Correlation matrix (Signal):
+                         : ----------------------------------------------------------------
+                         :             m_jj   m_jjj    m_lv   m_jlv    m_bb   m_wbb  m_wwbb
+                         :    m_jj:  +1.000  +0.774  -0.004  +0.096  +0.024  +0.512  +0.533
+                         :   m_jjj:  +0.774  +1.000  -0.010  +0.073  +0.152  +0.674  +0.668
+                         :    m_lv:  -0.004  -0.010  +1.000  +0.121  -0.027  +0.009  +0.021
+                         :   m_jlv:  +0.096  +0.073  +0.121  +1.000  +0.313  +0.544  +0.552
+                         :    m_bb:  +0.024  +0.152  -0.027  +0.313  +1.000  +0.445  +0.333
+                         :   m_wbb:  +0.512  +0.674  +0.009  +0.544  +0.445  +1.000  +0.915
+                         :  m_wwbb:  +0.533  +0.668  +0.021  +0.552  +0.333  +0.915  +1.000
+                         : ----------------------------------------------------------------
+DataSetInfo              : Correlation matrix (Background):
+                         : ----------------------------------------------------------------
+                         :             m_jj   m_jjj    m_lv   m_jlv    m_bb   m_wbb  m_wwbb
+                         :    m_jj:  +1.000  +0.808  +0.022  +0.150  +0.028  +0.407  +0.415
+                         :   m_jjj:  +0.808  +1.000  +0.041  +0.206  +0.177  +0.569  +0.547
+                         :    m_lv:  +0.022  +0.041  +1.000  +0.139  +0.037  +0.081  +0.085
+                         :   m_jlv:  +0.150  +0.206  +0.139  +1.000  +0.309  +0.607  +0.557
+                         :    m_bb:  +0.028  +0.177  +0.037  +0.309  +1.000  +0.625  +0.447
+                         :   m_wbb:  +0.407  +0.569  +0.081  +0.607  +0.625  +1.000  +0.884
+                         :  m_wwbb:  +0.415  +0.547  +0.085  +0.557  +0.447  +0.884  +1.000
+                         : ----------------------------------------------------------------
+DataSetFactory           : [dataset] :
+                         :
+Factory                  : Booking method: PyTorch
+                         :
+PyTorch                  : [dataset] : Create Transformation "D" with events from all classes.
+                         :
+                         : Transformation, Variable selection :
+                         : Input : variable 'm_jj' <---> Output : variable 'm_jj'
+                         : Input : variable 'm_jjj' <---> Output : variable 'm_jjj'
+                         : Input : variable 'm_lv' <---> Output : variable 'm_lv'
+                         : Input : variable 'm_jlv' <---> Output : variable 'm_jlv'
+                         : Input : variable 'm_bb' <---> Output : variable 'm_bb'
+                         : Input : variable 'm_wbb' <---> Output : variable 'm_wbb'
+                         : Input : variable 'm_wwbb' <---> Output : variable 'm_wwbb'
+PyTorch                  : [dataset] : Create Transformation "G" with events from all classes.
+                         :
+                         : Transformation, Variable selection :
+                         : Input : variable 'm_jj' <---> Output : variable 'm_jj'
+                         : Input : variable 'm_jjj' <---> Output : variable 'm_jjj'
+                         : Input : variable 'm_lv' <---> Output : variable 'm_lv'
+                         : Input : variable 'm_jlv' <---> Output : variable 'm_jlv'
+                         : Input : variable 'm_bb' <---> Output : variable 'm_bb'
+                         : Input : variable 'm_wbb' <---> Output : variable 'm_wbb'
+                         : Input : variable 'm_wwbb' <---> Output : variable 'm_wwbb'
+                         : Using PyTorch - setting special configuration options
+                         : Using PyTorch version 1
+                         :  Setup PyTorch Model
+custom objects for loading model :  {'optimizer': <class 'torch.optim.sgd.SGD'>, 'criterion': MSELoss(), 'train_func': <function train at 0x7ff036a83820>, 'predict_func': <function predict at 0x7fefbb317670>}
+                         : Loaded pytorch train function:
+                         : Loaded pytorch optimizer:
+                         : Loaded pytorch loss function:
+                         : Loaded pytorch predict function:
+                         : Load model from file: model.pt
+Factory                  : Train all methods
+Factory                  : [dataset] : Create Transformation "I" with events from all classes.
+                         :
+                         : Transformation, Variable selection :
+                         : Input : variable 'm_jj' <---> Output : variable 'm_jj'
+                         : Input : variable 'm_jjj' <---> Output : variable 'm_jjj'
+                         : Input : variable 'm_lv' <---> Output : variable 'm_lv'
+                         : Input : variable 'm_jlv' <---> Output : variable 'm_jlv'
+                         : Input : variable 'm_bb' <---> Output : variable 'm_bb'
+                         : Input : variable 'm_wbb' <---> Output : variable 'm_wbb'
+                         : Input : variable 'm_wwbb' <---> Output : variable 'm_wwbb'
+TFHandler_Factory        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     m_jj:     1.0318    0.65629   [    0.15106     16.132 ]
+                         :    m_jjj:     1.0217    0.37420   [    0.34247     8.9401 ]
+                         :     m_lv:     1.0507    0.16678   [    0.26679     3.6823 ]
+                         :    m_jlv:     1.0161    0.40288   [    0.38441     6.5831 ]
+                         :     m_bb:    0.97707    0.53961   [   0.080986     8.2551 ]
+                         :    m_wbb:     1.0358    0.36856   [    0.38503     6.4013 ]
+                         :   m_wwbb:    0.96265    0.31608   [    0.43228     4.5350 ]
+                         : -----------------------------------------------------------
+                         : Ranking input variables (method unspecific)...
+IdTransformation         : Ranking result (top variable is best ranked)
+                         : -------------------------------
+                         : Rank : Variable  : Separation
+                         : -------------------------------
+                         :    1 : m_bb      : 9.511e-02
+                         :    2 : m_wbb     : 4.268e-02
+                         :    3 : m_wwbb    : 4.178e-02
+                         :    4 : m_jjj     : 2.825e-02
+                         :    5 : m_jlv     : 1.999e-02
+                         :    6 : m_jj      : 3.834e-03
+                         :    7 : m_lv      : 3.699e-03
+                         : -------------------------------
+Factory                  : Train method: Likelihood for Classification
+                         :
+                         :
+                         : ================================================================
+                         : H e l p   f o r   M V A   m e t h o d   [ Likelihood ] :
+                         :
+                         : --- Short description:
+                         :
+                         : The maximum-likelihood classifier models the data with probability
+                         : density functions (PDF) reproducing the signal and background
+                         : distributions of the input variables. Correlations among the
+                         : variables are ignored.
+                         :
+                         : --- Performance optimisation:
+                         :
+                         : Required for good performance are decorrelated input variables
+                         : (PCA transformation via the option "VarTransform=Decorrelate"
+                         : may be tried). Irreducible non-linear correlations may be reduced
+                         : by precombining strongly correlated input variables, or by simply
+                         : removing one of the variables.
+                         :
+                         : --- Performance tuning via configuration options:
+                         :
+                         : High fidelity PDF estimates are mandatory, i.e., sufficient training
+                         : statistics is required to populate the tails of the distributions
+                         : It would be a surprise if the default Spline or KDE kernel parameters
+                         : provide a satisfying fit to the data. The user is advised to properly
+                         : tune the events per bin and smooth options in the spline cases
+                         : individually per variable. If the KDE kernel is used, the adaptive
+                         : Gaussian kernel may lead to artefacts, so please always also try
+                         : the non-adaptive one.
+                         :
+                         : All tuning parameters must be adjusted individually for each input
+                         : variable!
+                         :
+                         : <Suppress this message by specifying "!H" in the booking option>
+                         : ================================================================
+                         :
+                         : Filling reference histograms
+                         : Building PDF out of reference histograms
+                         : Elapsed time for training with 14000 events: 0.0799 sec
+Likelihood               : [dataset] : Evaluation of Likelihood on training sample (14000 events)
+                         : Elapsed time for evaluation of 14000 events: 0.0626 sec
+                         : Creating xml weight file: dataset/weights/TMVA_Higgs_Classification_Likelihood.weights.xml
+                         : Creating standalone class: dataset/weights/TMVA_Higgs_Classification_Likelihood.class.C
+                         : Higgs_ClassificationOutput.root:/dataset/Method_Likelihood/Likelihood
+Factory                  : Training finished
+                         :
+Factory                  : Train method: Fisher for Classification
+                         :
+                         :
+                         : ================================================================
+                         : H e l p   f o r   M V A   m e t h o d   [ Fisher ] :
+                         :
+                         : --- Short description:
+                         :
+                         : Fisher discriminants select events by distinguishing the mean
+                         : values of the signal and background distributions in a trans-
+                         : formed variable space where linear correlations are removed.
+                         :
+                         :    (More precisely: the "linear discriminator" determines
+                         :     an axis in the (correlated) hyperspace of the input
+                         :     variables such that, when projecting the output classes
+                         :     (signal and background) upon this axis, they are pushed
+                         :     as far as possible away from each other, while events
+                         :     of a same class are confined in a close vicinity. The
+                         :     linearity property of this classifier is reflected in the
+                         :     metric with which "far apart" and "close vicinity" are
+                         :     determined: the covariance matrix of the discriminating
+                         :     variable space.)
+                         :
+                         : --- Performance optimisation:
+                         :
+                         : Optimal performance for Fisher discriminants is obtained for
+                         : linearly correlated Gaussian-distributed variables. Any deviation
+                         : from this ideal reduces the achievable separation power. In
+                         : particular, no discrimination at all is achieved for a variable
+                         : that has the same sample mean for signal and background, even if
+                         : the shapes of the distributions are very different. Thus, Fisher
+                         : discriminants often benefit from suitable transformations of the
+                         : input variables. For example, if a variable x in [-1,1] has a
+                         : a parabolic signal distributions, and a uniform background
+                         : distributions, their mean value is zero in both cases, leading
+                         : to no separation. The simple transformation x -> |x| renders this
+                         : variable powerful for the use in a Fisher discriminant.
+                         :
+                         : --- Performance tuning via configuration options:
+                         :
+                         : <None>
+                         :
+                         : <Suppress this message by specifying "!H" in the booking option>
+                         : ================================================================
+                         :
+Fisher                   : Results for Fisher coefficients:
+                         : -----------------------
+                         : Variable:  Coefficient:
+                         : -----------------------
+                         :     m_jj:       -0.051
+                         :    m_jjj:       +0.192
+                         :     m_lv:       +0.045
+                         :    m_jlv:       +0.059
+                         :     m_bb:       -0.211
+                         :    m_wbb:       +0.549
+                         :   m_wwbb:       -0.778
+                         : (offset):       +0.136
+                         : -----------------------
+                         : Elapsed time for training with 14000 events: 0.0146 sec
+Fisher                   : [dataset] : Evaluation of Fisher on training sample (14000 events)
+                         : Elapsed time for evaluation of 14000 events: 0.0538 sec
+                         : <CreateMVAPdfs> Separation from histogram (PDF): 0.090 (0.000)
+                         : Dataset[dataset] : Evaluation of Fisher on training sample
+                         : Creating xml weight file: dataset/weights/TMVA_Higgs_Classification_Fisher.weights.xml
+                         : Creating standalone class: dataset/weights/TMVA_Higgs_Classification_Fisher.class.C
+Factory                  : Training finished
+                         :
+Factory                  : Train method: BDT for Classification
+                         :
+BDT                      : #events: (reweighted) sig: 7000 bkg: 7000
+                         : #events: (unweighted) sig: 7000 bkg: 7000
+                         : Training 200 Decision Trees ... patience please
+                         : Elapsed time for training with 14000 events: 0.509 sec
+BDT                      : [dataset] : Evaluation of BDT on training sample (14000 events)
+                         : Elapsed time for evaluation of 14000 events: 0.149 sec
+                         : Creating xml weight file: dataset/weights/TMVA_Higgs_Classification_BDT.weights.xml
+                         : Creating standalone class: dataset/weights/TMVA_Higgs_Classification_BDT.class.C
+                         : Higgs_ClassificationOutput.root:/dataset/Method_BDT/BDT
+Factory                  : Training finished
+                         :
+Factory                  : Train method: PyTorch for Classification
+                         :
+                         :
+                         : ================================================================
+                         : H e l p   f o r   M V A   m e t h o d   [ PyTorch ] :
+                         :
+                         : PyTorch is a scientific computing package supporting
+                         : automatic differentiation. This method wraps the training
+                         : and predictions steps of the PyTorch Python package for
+                         : TMVA, so that dataloading, preprocessing and evaluation
+                         : can be done within the TMVA system. To use this PyTorch
+                         : interface, you need to generatea model with PyTorch first.
+                         : Then, this model can be loaded and trained in TMVA.
+                         :
+                         :
+                         : <Suppress this message by specifying "!H" in the booking option>
+                         : ================================================================
+                         :
+                         : Preparing the Decorrelation transformation...
+                         : Preparing the Gaussian transformation...
+TFHandler_PyTorch        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     m_jj:  0.0044739    0.99831   [    -3.2808     5.7307 ]
+                         :    m_jjj:  0.0043082    0.99758   [    -3.2808     5.7307 ]
+                         :     m_lv:  0.0048016    0.99993   [    -3.2808     5.7307 ]
+                         :    m_jlv:  0.0044925    0.99874   [    -3.2807     5.7307 ]
+                         :     m_bb:  0.0043877    0.99837   [    -3.2807     5.7307 ]
+                         :    m_wbb:  0.0044419    0.99844   [    -3.2808     5.7307 ]
+                         :   m_wwbb:  0.0046807    0.99931   [    -3.2807     5.7307 ]
+                         : -----------------------------------------------------------
+TFHandler_PyTorch        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     m_jj:  0.0044739    0.99831   [    -3.2808     5.7307 ]
+                         :    m_jjj:  0.0043082    0.99758   [    -3.2808     5.7307 ]
+                         :     m_lv:  0.0048016    0.99993   [    -3.2808     5.7307 ]
+                         :    m_jlv:  0.0044925    0.99874   [    -3.2807     5.7307 ]
+                         :     m_bb:  0.0043877    0.99837   [    -3.2807     5.7307 ]
+                         :    m_wbb:  0.0044419    0.99844   [    -3.2808     5.7307 ]
+                         :   m_wwbb:  0.0046807    0.99931   [    -3.2807     5.7307 ]
+                         : -----------------------------------------------------------
+                         : Split TMVA training data in 11200 training events and 2800 validation events
+                         : Print Training Model Architecture
+RecursiveScriptModule(
+  original_name=Sequential
+  (linear_1): RecursiveScriptModule(original_name=Linear)
+  (relu): RecursiveScriptModule(original_name=Tanh)
+  (linear_2): RecursiveScriptModule(original_name=Linear)
+)
+                         : Option SaveBestOnly: Only model weights with smallest validation loss will be stored
+[Epoch 1, 64] train loss:0.301
+[Epoch 1, 128] train loss:0.238
+[Epoch 1, 192] train loss:0.235
+[Epoch 1, 256] train loss:0.239
+[Epoch 1, 320] train loss:0.239
+[Epoch 1] val loss: 0.232
+[Epoch 2, 64] train loss:0.233
+[Epoch 2, 128] train loss:0.232
+[Epoch 2, 192] train loss:0.233
+[Epoch 2, 256] train loss:0.238
+[Epoch 2, 320] train loss:0.238
+[Epoch 2] val loss: 0.231
+[Epoch 3, 64] train loss:0.232
+[Epoch 3, 128] train loss:0.232
+[Epoch 3, 192] train loss:0.232
+[Epoch 3, 256] train loss:0.237
+[Epoch 3, 320] train loss:0.237
+[Epoch 3] val loss: 0.230
+[Epoch 4, 64] train loss:0.231
+[Epoch 4, 128] train loss:0.231
+[Epoch 4, 192] train loss:0.231
+[Epoch 4, 256] train loss:0.236
+[Epoch 4, 320] train loss:0.236
+[Epoch 4] val loss: 0.229
+[Epoch 5, 64] train loss:0.231
+[Epoch 5, 128] train loss:0.230
+[Epoch 5, 192] train loss:0.231
+[Epoch 5, 256] train loss:0.235
+[Epoch 5, 320] train loss:0.235
+[Epoch 5] val loss: 0.228
+[Epoch 6, 64] train loss:0.230
+[Epoch 6, 128] train loss:0.229
+[Epoch 6, 192] train loss:0.230
+[Epoch 6, 256] train loss:0.234
+[Epoch 6, 320] train loss:0.235
+[Epoch 6] val loss: 0.228
+[Epoch 7, 64] train loss:0.229
+[Epoch 7, 128] train loss:0.228
+[Epoch 7, 192] train loss:0.229
+[Epoch 7, 256] train loss:0.234
+[Epoch 7, 320] train loss:0.234
+[Epoch 7] val loss: 0.227
+[Epoch 8, 64] train loss:0.229
+[Epoch 8, 128] train loss:0.228
+[Epoch 8, 192] train loss:0.228
+[Epoch 8, 256] train loss:0.233
+[Epoch 8, 320] train loss:0.233
+[Epoch 8] val loss: 0.227
+[Epoch 9, 64] train loss:0.228
+[Epoch 9, 128] train loss:0.227
+[Epoch 9, 192] train loss:0.228
+[Epoch 9, 256] train loss:0.232
+[Epoch 9, 320] train loss:0.232
+[Epoch 9] val loss: 0.226
+[Epoch 10, 64] train loss:0.228
+[Epoch 10, 128] train loss:0.226
+[Epoch 10, 192] train loss:0.227
+[Epoch 10, 256] train loss:0.232
+[Epoch 10, 320] train loss:0.232
+[Epoch 10] val loss: 0.226
+[Epoch 11, 64] train loss:0.227
+[Epoch 11, 128] train loss:0.226
+[Epoch 11, 192] train loss:0.227
+[Epoch 11, 256] train loss:0.231
+[Epoch 11, 320] train loss:0.231
+[Epoch 11] val loss: 0.225
+[Epoch 12, 64] train loss:0.227
+[Epoch 12, 128] train loss:0.225
+[Epoch 12, 192] train loss:0.226
+[Epoch 12, 256] train loss:0.231
+[Epoch 12, 320] train loss:0.230
+[Epoch 12] val loss: 0.224
+[Epoch 13, 64] train loss:0.226
+[Epoch 13, 128] train loss:0.224
+[Epoch 13, 192] train loss:0.225
+[Epoch 13, 256] train loss:0.230
+[Epoch 13, 320] train loss:0.229
+[Epoch 13] val loss: 0.224
+[Epoch 14, 64] train loss:0.226
+[Epoch 14, 128] train loss:0.224
+[Epoch 14, 192] train loss:0.225
+[Epoch 14, 256] train loss:0.229
+[Epoch 14, 320] train loss:0.229
+[Epoch 14] val loss: 0.224
+[Epoch 15, 64] train loss:0.225
+[Epoch 15, 128] train loss:0.223
+[Epoch 15, 192] train loss:0.224
+[Epoch 15, 256] train loss:0.229
+[Epoch 15, 320] train loss:0.228
+[Epoch 15] val loss: 0.223
+[Epoch 16, 64] train loss:0.224
+[Epoch 16, 128] train loss:0.223
+[Epoch 16, 192] train loss:0.224
+[Epoch 16, 256] train loss:0.228
+[Epoch 16, 320] train loss:0.227
+[Epoch 16] val loss: 0.223
+[Epoch 17, 64] train loss:0.224
+[Epoch 17, 128] train loss:0.222
+[Epoch 17, 192] train loss:0.223
+[Epoch 17, 256] train loss:0.227
+[Epoch 17, 320] train loss:0.227
+[Epoch 17] val loss: 0.222
+[Epoch 18, 64] train loss:0.223
+[Epoch 18, 128] train loss:0.221
+[Epoch 18, 192] train loss:0.222
+[Epoch 18, 256] train loss:0.227
+[Epoch 18, 320] train loss:0.226
+[Epoch 18] val loss: 0.222
+[Epoch 19, 64] train loss:0.223
+[Epoch 19, 128] train loss:0.221
+[Epoch 19, 192] train loss:0.222
+[Epoch 19, 256] train loss:0.226
+[Epoch 19, 320] train loss:0.225
+[Epoch 19] val loss: 0.221
+[Epoch 20, 64] train loss:0.222
+[Epoch 20, 128] train loss:0.220
+[Epoch 20, 192] train loss:0.221
+[Epoch 20, 256] train loss:0.226
+[Epoch 20, 320] train loss:0.224
+[Epoch 20] val loss: 0.220
+[Epoch 21, 64] train loss:0.221
+[Epoch 21, 128] train loss:0.219
+[Epoch 21, 192] train loss:0.220
+[Epoch 21, 256] train loss:0.225
+[Epoch 21, 320] train loss:0.224
+[Epoch 21] val loss: 0.220
+[Epoch 22, 64] train loss:0.221
+[Epoch 22, 128] train loss:0.219
+[Epoch 22, 192] train loss:0.220
+[Epoch 22, 256] train loss:0.224
+[Epoch 22, 320] train loss:0.223
+[Epoch 22] val loss: 0.219
+[Epoch 23, 64] train loss:0.220
+[Epoch 23, 128] train loss:0.218
+[Epoch 23, 192] train loss:0.219
+[Epoch 23, 256] train loss:0.223
+[Epoch 23, 320] train loss:0.222
+[Epoch 23] val loss: 0.219
+[Epoch 24, 64] train loss:0.220
+[Epoch 24, 128] train loss:0.217
+[Epoch 24, 192] train loss:0.219
+[Epoch 24, 256] train loss:0.223
+[Epoch 24, 320] train loss:0.221
+[Epoch 24] val loss: 0.218
+[Epoch 25, 64] train loss:0.219
+[Epoch 25, 128] train loss:0.217
+[Epoch 25, 192] train loss:0.218
+[Epoch 25, 256] train loss:0.222
+[Epoch 25, 320] train loss:0.221
+[Epoch 25] val loss: 0.218
+[Epoch 26, 64] train loss:0.218
+[Epoch 26, 128] train loss:0.216
+[Epoch 26, 192] train loss:0.217
+[Epoch 26, 256] train loss:0.221
+[Epoch 26, 320] train loss:0.220
+[Epoch 26] val loss: 0.217
+[Epoch 27, 64] train loss:0.217
+[Epoch 27, 128] train loss:0.215
+[Epoch 27, 192] train loss:0.216
+[Epoch 27, 256] train loss:0.220
+[Epoch 27, 320] train loss:0.219
+[Epoch 27] val loss: 0.217
+[Epoch 28, 64] train loss:0.217
+[Epoch 28, 128] train loss:0.215
+[Epoch 28, 192] train loss:0.216
+[Epoch 28, 256] train loss:0.219
+[Epoch 28, 320] train loss:0.218
+[Epoch 28] val loss: 0.216
+[Epoch 29, 64] train loss:0.216
+[Epoch 29, 128] train loss:0.214
+[Epoch 29, 192] train loss:0.215
+[Epoch 29, 256] train loss:0.219
+[Epoch 29, 320] train loss:0.217
+[Epoch 29] val loss: 0.215
+[Epoch 30, 64] train loss:0.215
+[Epoch 30, 128] train loss:0.213
+[Epoch 30, 192] train loss:0.214
+[Epoch 30, 256] train loss:0.218
+[Epoch 30, 320] train loss:0.216
+[Epoch 30] val loss: 0.215
+Finished Training on 30 Epochs!
+                         : Elapsed time for training with 14000 events: 5.62 sec
+PyTorch                  : [dataset] : Evaluation of PyTorch on training sample (14000 events)
+                         : Elapsed time for evaluation of 14000 events: 0.123 sec
+                         : Creating xml weight file: dataset/weights/TMVA_Higgs_Classification_PyTorch.weights.xml
+                         : Creating standalone class: dataset/weights/TMVA_Higgs_Classification_PyTorch.class.C
+Factory                  : Training finished
+                         :
+                         : Ranking input variables (method specific)...
+Likelihood               : Ranking result (top variable is best ranked)
+                         : -------------------------------------
+                         : Rank : Variable  : Delta Separation
+                         : -------------------------------------
+                         :    1 : m_bb      : 4.061e-02
+                         :    2 : m_wbb     : 3.765e-02
+                         :    3 : m_wwbb    : 3.119e-02
+                         :    4 : m_jj      : -1.589e-03
+                         :    5 : m_jjj     : -2.901e-03
+                         :    6 : m_lv      : -7.919e-03
+                         :    7 : m_jlv     : -8.293e-03
+                         : -------------------------------------
+Fisher                   : Ranking result (top variable is best ranked)
+                         : ---------------------------------
+                         : Rank : Variable  : Discr. power
+                         : ---------------------------------
+                         :    1 : m_bb      : 1.279e-02
+                         :    2 : m_wwbb    : 9.131e-03
+                         :    3 : m_wbb     : 2.668e-03
+                         :    4 : m_jlv     : 9.145e-04
+                         :    5 : m_jjj     : 1.769e-04
+                         :    6 : m_lv      : 6.617e-05
+                         :    7 : m_jj      : 6.707e-06
+                         : ---------------------------------
+BDT                      : Ranking result (top variable is best ranked)
+                         : ----------------------------------------
+                         : Rank : Variable  : Variable Importance
+                         : ----------------------------------------
+                         :    1 : m_bb      : 2.089e-01
+                         :    2 : m_wwbb    : 1.673e-01
+                         :    3 : m_wbb     : 1.568e-01
+                         :    4 : m_jlv     : 1.560e-01
+                         :    5 : m_jjj     : 1.421e-01
+                         :    6 : m_jj      : 1.052e-01
+                         :    7 : m_lv      : 6.369e-02
+                         : ----------------------------------------
+                         : No variable ranking supplied by classifier: PyTorch
+Factory                  : === Destroy and recreate all methods via weight files for testing ===
+                         :
+                         : Reading weight file: dataset/weights/TMVA_Higgs_Classification_Likelihood.weights.xml
+                         : Reading weight file: dataset/weights/TMVA_Higgs_Classification_Fisher.weights.xml
+                         : Reading weight file: dataset/weights/TMVA_Higgs_Classification_BDT.weights.xml
+                         : Reading weight file: dataset/weights/TMVA_Higgs_Classification_PyTorch.weights.xml
+Factory                  : Test all methods
+Factory                  : Test method: Likelihood for Classification performance
+                         :
+Likelihood               : [dataset] : Evaluation of Likelihood on testing sample (6000 events)
+                         : Elapsed time for evaluation of 6000 events: 0.0569 sec
+Factory                  : Test method: Fisher for Classification performance
+                         :
+Fisher                   : [dataset] : Evaluation of Fisher on testing sample (6000 events)
+                         : Elapsed time for evaluation of 6000 events: 0.0513 sec
+                         : Dataset[dataset] : Evaluation of Fisher on testing sample
+Factory                  : Test method: BDT for Classification performance
+                         :
+BDT                      : [dataset] : Evaluation of BDT on testing sample (6000 events)
+                         : Elapsed time for evaluation of 6000 events: 0.0886 sec
+Factory                  : Test method: PyTorch for Classification performance
+                         :
+                         :  Setup PyTorch Model
+custom objects for loading model :  {'optimizer': <class 'torch.optim.sgd.SGD'>, 'criterion': MSELoss(), 'train_func': <function train at 0x7ff036a83820>, 'predict_func': <function predict at 0x7fefbb317670>}
+                         : Loaded pytorch train function:
+                         : Loaded pytorch optimizer:
+                         : Loaded pytorch loss function:
+                         : Loaded pytorch predict function:
+                         : Load model from file: dataset/weights/TrainedModel_PyTorch.pt
+PyTorch                  : [dataset] : Evaluation of PyTorch on testing sample (6000 events)
+                         : Elapsed time for evaluation of 6000 events: 0.0409 sec
+Factory                  : Evaluate all methods
+Factory                  : Evaluate classifier: Likelihood
+                         :
+Likelihood               : [dataset] : Loop over test events and fill histograms with classifier response...
+                         :
+TFHandler_Likelihood     : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     m_jj:     1.0447    0.66216   [    0.14661     10.222 ]
+                         :    m_jjj:     1.0275    0.37015   [    0.34201     5.6016 ]
+                         :     m_lv:     1.0500    0.15582   [    0.29757     2.8989 ]
+                         :    m_jlv:     1.0053    0.39478   [    0.41660     5.8799 ]
+                         :     m_bb:    0.97464    0.52138   [    0.10941     5.5163 ]
+                         :    m_wbb:     1.0296    0.35719   [    0.38878     3.9747 ]
+                         :   m_wwbb:    0.95617    0.30368   [    0.44118     4.0728 ]
+                         : -----------------------------------------------------------
+Factory                  : Evaluate classifier: Fisher
+                         :
+Fisher                   : [dataset] : Loop over test events and fill histograms with classifier response...
+                         :
+                         : Also filling probability and rarity histograms (on request)...
+TFHandler_Fisher         : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     m_jj:     1.0447    0.66216   [    0.14661     10.222 ]
+                         :    m_jjj:     1.0275    0.37015   [    0.34201     5.6016 ]
+                         :     m_lv:     1.0500    0.15582   [    0.29757     2.8989 ]
+                         :    m_jlv:     1.0053    0.39478   [    0.41660     5.8799 ]
+                         :     m_bb:    0.97464    0.52138   [    0.10941     5.5163 ]
+                         :    m_wbb:     1.0296    0.35719   [    0.38878     3.9747 ]
+                         :   m_wwbb:    0.95617    0.30368   [    0.44118     4.0728 ]
+                         : -----------------------------------------------------------
+Factory                  : Evaluate classifier: BDT
+                         :
+BDT                      : [dataset] : Loop over test events and fill histograms with classifier response...
+                         :
+TFHandler_BDT            : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     m_jj:     1.0447    0.66216   [    0.14661     10.222 ]
+                         :    m_jjj:     1.0275    0.37015   [    0.34201     5.6016 ]
+                         :     m_lv:     1.0500    0.15582   [    0.29757     2.8989 ]
+                         :    m_jlv:     1.0053    0.39478   [    0.41660     5.8799 ]
+                         :     m_bb:    0.97464    0.52138   [    0.10941     5.5163 ]
+                         :    m_wbb:     1.0296    0.35719   [    0.38878     3.9747 ]
+                         :   m_wwbb:    0.95617    0.30368   [    0.44118     4.0728 ]
+                         : -----------------------------------------------------------
+Factory                  : Evaluate classifier: PyTorch
+                         :
+TFHandler_PyTorch        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     m_jj:   0.022121    0.99576   [    -2.9965     3.4590 ]
+                         :    m_jjj:   0.027942    0.98745   [    -3.0310     3.4982 ]
+                         :     m_lv:   0.027358    0.98418   [    -3.2191     3.3810 ]
+                         :    m_jlv:  -0.013086    0.98732   [    -3.0628     5.7307 ]
+                         :     m_bb:   0.016839    0.97481   [    -3.3469     3.3588 ]
+                         :    m_wbb: -0.0099406    0.98475   [    -3.5975     3.6161 ]
+                         :   m_wwbb:  -0.014767    0.99365   [    -2.9700     5.7307 ]
+                         : -----------------------------------------------------------
+PyTorch                  : [dataset] : Loop over test events and fill histograms with classifier response...
+                         :
+TFHandler_PyTorch        : Variable        Mean        RMS   [        Min        Max ]
+                         : -----------------------------------------------------------
+                         :     m_jj:   0.022121    0.99576   [    -2.9965     3.4590 ]
+                         :    m_jjj:   0.027942    0.98745   [    -3.0310     3.4982 ]
+                         :     m_lv:   0.027358    0.98418   [    -3.2191     3.3810 ]
+                         :    m_jlv:  -0.013086    0.98732   [    -3.0628     5.7307 ]
+                         :     m_bb:   0.016839    0.97481   [    -3.3469     3.3588 ]
+                         :    m_wbb: -0.0099406    0.98475   [    -3.5975     3.6161 ]
+                         :   m_wwbb:  -0.014767    0.99365   [    -2.9700     5.7307 ]
+                         : -----------------------------------------------------------
+                         :
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA
+                         : Name:         Method:          ROC-integ
+                         : dataset       BDT            : 0.754
+                         : dataset       PyTorch        : 0.713
+                         : dataset       Likelihood     : 0.699
+                         : dataset       Fisher         : 0.642
+                         : -------------------------------------------------------------------------------------------------------------------
+                         :
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample)
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : dataset              BDT            : 0.098 (0.099)       0.393 (0.402)      0.657 (0.681)
+                         : dataset              PyTorch        : 0.037 (0.041)       0.297 (0.312)      0.619 (0.633)
+                         : dataset              Likelihood     : 0.070 (0.075)       0.356 (0.363)      0.581 (0.597)
+                         : dataset              Fisher         : 0.015 (0.015)       0.121 (0.131)      0.487 (0.506)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         :
+Dataset:dataset          : Created tree 'TestTree' with 6000 events
+                         :
+Dataset:dataset          : Created tree 'TrainTree' with 14000 events
+                         :
+Factory                  : Thank you for using TMVA!
+                         : For citation information, please visit: http://tmva.sf.net/citeTMVA.html
