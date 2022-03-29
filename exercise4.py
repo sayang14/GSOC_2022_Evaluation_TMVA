@@ -39,14 +39,9 @@ np.save('file.npy',x_tree)
 
 print(x_tree)
   
-<<<<<<< HEAD
-batch_size = 32 
-         
-=======
-batch_size = 100  
+batch_size = 32  
   
 #Create generator function accessing values from x_tree(loaded in the form of numpy array) 
->>>>>>> 00235bf5043fb416f57bc9649b89cbf701975905
 def generator_function(array, batch_size):
   inputs = []
   targets = []
