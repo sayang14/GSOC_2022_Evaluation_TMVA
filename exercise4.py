@@ -38,19 +38,8 @@ num_tree = x_tree.shape[0]
 np.save('file.npy',x_tree)
 
 print(x_tree)
-
-dataloader = TMVA.DataLoader('dataset')
-for branch in tree.GetListOfBranches():
-    name = branch.GetName()
-    if name != 'fvalue':
-        dataloader.AddVariable(name)
-dataloader.AddTarget('fvalue')
- 
-dataloader.AddRegressionTree(tree, 1.0)
-dataloader.PrepareTrainingAndTestTree(TCut(''),
-        'nTrain_Regression=4000:SplitMode=Random:NormMode=NumEvents:!V')
   
-batch_size = 100  
+batch_size = 32 
          
 def generator_function(array, batch_size):
   inputs = []
@@ -64,37 +53,26 @@ def generator_function(array, batch_size):
          if batchcount > batch_size:
                   X = np.array(inputs, dtype='float32')
                   y = np.array(targets, dtype='float32')
-                  yield (X, y)
+                  yield (X,y)
                   inputs = []
                   targets = []
                   batchcount = 0
-         
-    
-# Define model
+
+#Define model for generator
 model = Sequential()
-model.add(Dense(64, activation='tanh', input_dim=2))
+model.add(Dense(64, activation='tanh', input_dim=1))
 model.add(Dense(1, activation='linear'))
  
 # Set loss and optimizer
 model.compile(loss='mean_squared_error', optimizer=SGD(lr=0.01))
 
 #fitting the generator function
-model.fit(generator_function(tf.expand_dims(x_tree,axis = 0),batch_size),steps_per_epoch=num_tree / batch_size, epochs=10)
+model.fit_generator(generator_function(x_tree,batch_size),steps_per_epoch=num_tree / batch_size, epochs=20)
 
 #saving the model
 model.save('model.h5')
 model.summary()
 
-#booking tmva methods
-factory.BookMethod(dataloader, TMVA.Types.kPyKeras, 'PyKeras',
-        'H:!V:VarTransform=D,G:FilenameModel=model.h5:NumEpochs=20:BatchSize=32')
-factory.BookMethod(dataloader, TMVA.Types.kBDT, 'BDTG',
-        '!H:!V:VarTransform=D,G:NTrees=1000:BoostType=Grad:Shrinkage=0.1:UseBaggedBoost:BaggedSampleFraction=0.5:nCuts=20:MaxDepth=4')
-
-#running tmva
-factory.TrainAllMethods()
-factory.TestAllMethods()
-factory.EvaluateAllMethods()
    
 
 
