@@ -19,10 +19,6 @@ variables = ["var1","var2"]
 TMVA.Tools.Instance()
 TMVA.PyMethodBase.PyInitialize()
 
-output = TFile.Open('TMVA.root', 'RECREATE')
-factory = TMVA.Factory('TMVARegression', output,
-        '!V:!Silent:Color:DrawProgressBar:Transformations=D,G:AnalysisType=Regression')
-        
 # Load data
 if not isfile('tmva_reg_example.root'):
     call(['curl', '-L', '-O', 'http://root.cern.ch/files/tmva_reg_example.root'])
