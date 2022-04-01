@@ -26,7 +26,7 @@ if not isfile('tmva_reg_example.root'):
 data = TFile.Open('tmva_reg_example.root')
 tree = data.Get('TreeR')
 
-#loading data in numpy format and also readable my any machine learning framework tool
+#loading data in numpy format and also readable in any machine learning framework tool
 tree_data = ROOT.RDataFrame("TreeR",data).AsNumpy()
 x_tree = np.array([tree_data[var] for var in variables]).T
 num_tree = x_tree.shape[0]
